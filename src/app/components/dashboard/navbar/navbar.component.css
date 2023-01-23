@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+
+.logo{
+  padding: 10px;
+  transition: all .2s ease-in-out;
+  font-family: 'Kanit', sans-serif;
+}
+
+.logo:hover{
+  background-color: rgba(255, 255, 255, .3);
+  cursor: pointer;
+}
+
+.navbar{
+  padding: 0;
+  height: auto;
+}

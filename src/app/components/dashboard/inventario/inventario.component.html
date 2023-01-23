@@ -1,0 +1,20 @@
+    <mat-toolbar >
+
+      <span><b>INVENTARIO</b></span>
+
+
+      <span class="example-spacer"></span>
+
+      <mat-form-field name="Categorías" style="height: 80%;">
+        <mat-select placeholder="Categorías" style="height: 80%;">
+          <mat-option *ngFor="let cat of categories" [value]="cat" [routerLink]="[cat]">
+            {{cat}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
+
+

@@ -1,0 +1,45 @@
+.bodylogin{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: #fff;
+}
+
+.login{
+  padding: 25px;
+  border-radius: 10px;
+  border: 3px solid #1b4e77;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 330px;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+
+.ancho{
+    width: 100%;
+}
+
+.boton{
+    height: 50px;
+}
+
+.spinner{
+    margin: 0 auto;
+
+}
+
+.logo{
+  width: 100%;
+}
+
+.logo>img{
+  width: 100%;
+}
+
+.blue{
+  background-color: #1b4e77;
+  color: #FAFAFA;
+}
